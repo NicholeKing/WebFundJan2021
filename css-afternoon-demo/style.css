@@ -1,0 +1,57 @@
+.container {
+    width: 1000px;
+    min-height: 600px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: goldenrod;
+    margin-bottom: 10px;
+}
+
+.nav {
+    width: 200px;
+    height: 250px;
+    background-color: coral;
+    display: inline-block;
+}
+
+.content {
+    width: 700px;
+    min-height: 500px;
+    background-color: dodgerblue;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: darkslategray;
+    margin-top: 10px;
+}
+
+.headerstyle {
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.contentstyle {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.footerstyle {
+    padding: 20px;
+    color:blanchedalmond;
+}
+
+.spanclass {
+    color: orange;
+}
