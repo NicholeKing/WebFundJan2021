@@ -1,7 +1,7 @@
 .container {
     width: 1000px;
     min-height: 600px;
-    border: 2px solid red;
+    border: 2px solid #1c0c10;
     margin: 0 auto;
 }
 
@@ -10,6 +10,11 @@
     height: 200px;
     background-color: goldenrod;
     margin-bottom: 10px;
+}
+
+ul {
+    padding: 0px 30px;
+    text-decoration: underline;
 }
 
 .nav {
@@ -38,8 +43,11 @@
 .headerstyle {
     font-size: 60px;
     text-align: center;
-    margin: 0px;
-    padding: 20px;
+    margin: auto;
+    padding: 0px 20px;
+    line-height: 200px;
+    font-family: 'Architects Daughter', cursive;
+    background-image: radial-gradient(circle, red, yellow, green);
 }
 
 .contentstyle {
@@ -47,11 +55,44 @@
     font-size: 20px;
 }
 
+.spanclass {
+    color: orange;
+}
+
+.innerlist {
+    padding: 0px 10px;
+    list-style-type: "🤯";
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 .footerstyle {
     padding: 20px;
     color:blanchedalmond;
 }
 
-.spanclass {
-    color: orange;
+.flexcontainer {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+.third {
+    background-color: aqua;
+    align-self: flex-end;
+}
+
+.second {
+    order: 1;
+    align-self: flex-end;
 }
